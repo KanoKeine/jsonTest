@@ -1,124 +1,34 @@
 {
-  "data": [
-    {
-      "series": "降水量",
-      "name": "1月",
-      "value": 223
+    "key1": {
+      "nested_key1": "value1",
+      "nested_key2": {
+        "nested_nested_key1": "value2"
+      }
     },
-    {
-      "series": "降水量",
-      "name": "2月",
-      "value": 4.9
-    },
-    {
-      "series": "降水量",
-      "name": "3月",
-      "value": 7
-    },
-    {
-      "series": "降水量",
-      "name": "4月",
-      "value": 23.2
-    },
-    {
-      "series": "降水量",
-      "name": "5月",
-      "value": 25.6
-    },
-    {
-      "series": "降水量",
-      "name": "6月",
-      "value": 76.7
-    },
-    {
-      "series": "降水量",
-      "name": "7月",
-      "value": 135.6
-    },
-    {
-      "series": "降水量",
-      "name": "8月",
-      "value": 162.2
-    },
-    {
-      "series": "降水量",
-      "name": "9月",
-      "value": 32.6
-    },
-    {
-      "series": "降水量",
-      "name": "10月",
-      "value": 20
-    },
-    {
-      "series": "降水量",
-      "name": "11月",
-      "value": 6.4
-    },
-    {
-      "series": "降水量",
-      "name": "12月",
-      "value": 3.3
-    },
-    {
-      "series": "平均温度",
-      "name": "1月",
-      "value": 2
-    },
-    {
-      "series": "平均温度",
-      "name": "2月",
-      "value": 2.2
-    },
-    {
-      "series": "平均温度",
-      "name": "3月",
-      "value": 3.3
-    },
-    {
-      "series": "平均温度",
-      "name": "4月",
-      "value": 4.5
-    },
-    {
-      "series": "平均温度",
-      "name": "5月",
-      "value": 6.3
-    },
-    {
-      "series": "平均温度",
-      "name": "6月",
-      "value": 10.2
-    },
-    {
-      "series": "平均温度",
-      "name": "7月",
-      "value": 20.3
-    },
-    {
-      "series": "平均温度",
-      "name": "8月",
-      "value": 23.4
-    },
-    {
-      "series": "平均温度",
-      "name": "9月",
-      "value": 23
-    },
-    {
-      "series": "平均温度",
-      "name": "10月",
-      "value": 16.5
-    },
-    {
-      "series": "平均温度",
-      "name": "11月",
-      "value": 12
-    },
-    {
-      "series": "平均温度",
-      "name": "12月",
-      "value": 6.2
-    }
-  ]
-}
+    "key2": [
+      {
+        "nested_key3": "value33",
+        "nested_key4": 4,
+        "nested_key5": {
+          "nested_key6": 7
+        },
+        "tt": [
+          { "k": 1, "b": 2 },
+          { "k": 3, "b": 4 },
+          { "k": 9, "b": 10 }
+        ]
+      },
+      {
+        "nested_key3": "value3",
+        "nested_key4": 3,
+        "nested_key5": {
+          "nested_key6": 8
+        },
+        "tt": [
+          { "k": 5, "b": 6 },
+          { "k": 7, "b": 8 },
+          { "k": 11, "b": 12 }
+        ]
+      }
+    ]
+  }
